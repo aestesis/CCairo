@@ -10,8 +10,14 @@ let package = Package(
     ],
     dependencies: [
     ],
-    targets: [
-//        .systemLibrary(name:"CCairo"),
-        .target(name:"CCairo")
+        targets: [
+        .systemLibrary(
+            name: "CCairo",
+            pkgConfig: "cairo",
+            providers: [
+                .apt(["libcairo-dev"]),
+                .brew(["cairo"]),
+            ]
+        )
     ]
 )
