@@ -10,7 +10,7 @@ let package = Package(
     ],
     dependencies: [
     ],
-        targets: [
+    targets: [
         .systemLibrary(
             name: "CCairo",
             pkgConfig: "cairo",
