@@ -1,0 +1,5 @@
+version: "Swift version 4.2.2 (swift-4.2.2-RELEASE)"
+options: "53a3ac20c875f5e1e1f9ccc405362ada"
+build_time: [1550917427, 527857413]
+inputs:
+  "/home/renan/code/git/CCairo/Sources/CCairo/CCairo.swift": [1550917422, 0]

@@ -11,6 +11,7 @@ let package = Package(
     dependencies: [
     ],
     targets: [
-        .systemLibrary(name:"CCairo")
+//        .systemLibrary(name:"CCairo"),
+        .target(name:"CCairo")
     ]
 )
